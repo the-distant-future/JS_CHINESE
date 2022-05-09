@@ -45,3 +45,15 @@ function 循环X次执行Y(X,Y){
         Y(i);
     }
 }
+function 创建空集(){
+    return [];
+}
+function 获取名为X的画布(X){
+    return document.getElementById(X);
+}
+function 在集合X中添加元素Y(X,Y){
+    X.push(Y);
+}
+function 获取画布X上的文字(X){
+    return X.innerHTML;
+}
