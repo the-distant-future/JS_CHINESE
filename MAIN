@@ -1,0 +1,5 @@
+function 循环X次执行Y(X,Y){
+    for(let i=0;i<X;i++){
+        Y(i);
+    }
+}
