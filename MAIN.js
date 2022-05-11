@@ -4,7 +4,7 @@ const 身份证号域 = {};
     let B = [1, 0, "X", 9, 8, 7, 6, 5, 4, 3, 2];
     let C = 0;
     for (let i = 0; i < 17; i++) {
-        C += X.substring(i, i + 1) * A[i];
+        C += X[i] * A[i];
     }
     return B[C % 11];
 };
@@ -101,9 +101,27 @@ HTMLDivElement.prototype.设置左上边距 = function (X,Y) {
     this.style.paddingTop = Y+"px";
     return this;
 }
+HTMLDivElement.prototype.设置ID = function (X) {
+    this.id=X;
+    return this;
+}
 
+const 生命游戏域={};
+生命游戏域.创建一个格子=function (){
 
+}
+生命游戏域.创建九百格子=function (){
 
+}
+生命游戏域.创建开始按钮=function (){
+
+}
+生命游戏域.创建暂停按钮=function (){
+
+}
+生命游戏域.创建随机填充按钮=function (){
+
+}
 
 
 
